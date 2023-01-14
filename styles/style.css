@@ -1,0 +1,268 @@
+/* Google Fonts Poppines */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common code */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #3A3A3A;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-section img{
+    width: 25px;
+    height: 25px;
+}
+
+/* Header area CSS */
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.menu-section ul{
+    display: flex;
+}
+
+.menu-section li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.menu-section a{
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    color: #3A3A3A;
+}
+
+/* header-banner */
+
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    gap: 150px;
+}
+
+
+
+.banner-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-content p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 16px 0;
+}
+
+.banner-content button{
+ display: flex;
+ flex-direction: row;
+ align-items:center;
+ justify-content: center;
+ padding: 10px 25px;
+ background-color: #E02C6D;
+ border: 0;
+ color: #ffffff;
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 24px;
+ border-radius: 50px;
+ width: 200px;
+ height: 50px;
+}
+
+.banner-content button img{
+    width: 24px;
+    margin-left: 10px;
+   
+   
+}
+
+.trusted-by{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Popular items area */
+
+.propular-item-area{
+    margin-top: 100px;
+}
+
+.propular-item-area h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.popular-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.single-item{
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.single-item h4{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.single-item p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+
+.single-item .fa-star.active{
+ color: gold;
+}
+
+.single-item .fa-star.empty{
+    color: rgb(102, 97, 97);
+}
+.see-more{
+    text-align: right;
+}
+.see-more a{
+    color: #E02C6D;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    margin-top: 20px;
+
+}
+
+.see-more i{
+    margin-left: 5px;
+}
+
+/* feature-product-area */
+
+.feature-product-area{
+    margin: 100px auto;
+}
+
+.feature-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.product-content h3{
+    font-size: 38px;
+    font-weight: 700px;
+    line-height: 50px;
+    color: #0A0826;
+}
+
+.product-content p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 16px 100px 16px 0;
+    color: #6C6C6C;
+}
+
+.product-content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+
+.product-content i{
+    margin-left: 10px;
+}
+
+/* Footer area css */
+.footer-area{
+    background-color: #0A0826;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-area h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.footer-area p{
+    font-size: 14px;
+    line-height: 24px;
+    color:  #D9DBE1;
+}
+
+.social-area{
+    margin-top: 10px;
+}
+.social-area a{
+    text-decoration: none;
+    color: #fff;
+}
+.social-area i{
+    background-color: rgba(255, 255, 255,0.1);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;
+   margin: 0 10px;
+    
+}
+
+@media only screen and (max-width:576px) {
+    
+}
+
